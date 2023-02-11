@@ -1,7 +1,7 @@
 {
   "name": "01-ejercicio",
   "version": "1.0.0",
-  "description": "Ejercicio 01 de JavaScript",
+  "description": "Ejercicio 01 de JavaScript de OpenBootcamp",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
