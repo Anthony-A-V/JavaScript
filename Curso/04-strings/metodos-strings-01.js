@@ -24,7 +24,7 @@ let cadena = "Hola mi nombre es Gorka";
 console.log(cadena.replace("Gorka", "Miguel"));
 
 let texto_largo =
-  "Tito no es un mono cualquier. A Tito no le gusta trepar por los áboles y odia comer plátanos. El prefiere pasear por le bosque, oler las flores y recoger las nueces que se caen de los áboles";
+  "Tito no es un mono cualquier. A Tito no le gusta trepar por los áboles y odia comer plátanos. El prefiere pasear por le bosque, oler las flores y recoger las nueces que se caen de los árboles.";
 console.log(texto_largo.replace("los", "cinco"));
 
 // Al utilizar la expresión regular /g (global), reemplaza todas las instancias
