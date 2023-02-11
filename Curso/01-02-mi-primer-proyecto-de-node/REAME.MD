@@ -1,6 +1,6 @@
 // En CMD
 mkdir mi-primer-proyecto-de-node // Crea un directorio
-cd mimi-primer-proyecto-de-node // Cambia de directorio
+cd mi-primer-proyecto-de-node // Cambia de directorio
 code . // Inicia VSCode
 
 // En VSCode
