@@ -15,7 +15,8 @@ switch (nota) {
     break;
   case 1:
     console.log(
-      "No has estudiado nada, trabaja un poquito más para la próxima");
+      "No has estudiado nada, trabaja un poquito más para la próxima"
+    );
     break;
   default:
     console.log("Error, introduce una nota entre el 1 y el 5");

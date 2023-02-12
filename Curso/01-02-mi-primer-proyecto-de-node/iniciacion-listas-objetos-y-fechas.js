@@ -44,8 +44,8 @@ console.log(fecha_cadena);
 const fecha_valores = new Date(2022, 0, 15);
 console.log(fecha_valores);
 
-const dia = ahora.getDate()
-const mes = ahora.getMonth() + 1 // Para mes comienza desde 0
-const anyo = ahora.getFullYear()
+const dia = ahora.getDate();
+const mes = ahora.getMonth() + 1; // Para mes comienza desde 0
+const anyo = ahora.getFullYear();
 
 console.log(dia, mes, anyo);

@@ -5,8 +5,8 @@
 0;
 
 // string
-"Hola Mundo";
-"Hola Mundo";
+("Hola Mundo");
+("Hola Mundo");
 `Hola Mundo`;
 
 // booleanos

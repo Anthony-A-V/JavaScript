@@ -21,14 +21,14 @@ console.log(b);
 
 var variable = "Hola soy una variable VAR";
 for (var i = 0; i < 3; i++) {
-    var variable = "Soy la segunda variable";
+  var variable = "Soy la segunda variable";
 }
 
 console.log(variable);
 
 let variableLet = "Hola soy una variable VAR";
 for (let i = 0; i < 3; i++) {
-    let variableLet = "Soy la segunda variable";
+  let variableLet = "Soy la segunda variable";
 }
 
 console.log(variableLet);
