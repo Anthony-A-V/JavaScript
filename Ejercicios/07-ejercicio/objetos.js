@@ -1,4 +1,4 @@
-const lista = {
+const datos = {
   nombre: "Anthony",
   apellido: "Anguiz",
   edad: 25,
@@ -6,11 +6,11 @@ const lista = {
   eresDesarrollador: true,
 };
 
-const edad = lista.edad;
+const edad = datos.edad;
 console.log(edad);
 
 const lista2 = [
-  lista,
+  datos,
   {
     nombre: "Harry",
     apellido: "Potter",
