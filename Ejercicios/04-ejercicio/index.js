@@ -1,4 +1,4 @@
-const nombre = "Anthony";
+let nombre = "Anthony";
 let apellido = "Anguiz";
 let estudiante = nombre.concat(" ", apellido);
 console.log(estudiante);
