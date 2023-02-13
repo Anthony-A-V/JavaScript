@@ -1,0 +1,11 @@
+{"level":"error","message":"Error! Error: El valor es falso","service":"user-service"}
+{"level":"error","message":"Error!","service":"user-service"}
+{"level":"error","message":"El valor de e es Error: El valor es falso","service":"user-service"}
+{"level":"error","message":"Error!","service":"user-service"}
+{"level":"error","message":"El valor de e es: Error: El valor es falso","service":"user-service"}
+{"level":"error","message":"Error!","service":"user-service"}
+{"level":"error","message":"El valor de e es: ReferenceError: esVerdadero is not defined","service":"user-service"}
+{"level":"error","message":"Error!","service":"user-service"}
+{"level":"error","message":"El valor de e es: TypeError: Cannot create property 'Symbol(level)' on string 'Es verdadero'","service":"user-service"}
+{"level":"error","message":"Error!","service":"user-service"}
+{"level":"error","message":"El valor de e es: Error: El número no es par","service":"user-service"}
