@@ -1,5 +1,5 @@
 {
-  "name": "eslint-npm",
+  "name": "13-ejercicio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,12 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint-fix": "eslint --fix ."
-    
+  
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^8.34.0"
-  }
+  "license": "ISC"
 }
