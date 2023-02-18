@@ -1,6 +1,5 @@
 const parrafos = document.querySelectorAll(".parrafo");
 const secciones = document.querySelectorAll(".seccion");
-const borrar = document.querySelector(".borrar");
 
 parrafos.forEach((parrafo) => {
   parrafo.addEventListener("dragstart", (event) => {
@@ -33,15 +32,14 @@ secciones.forEach((seccion) => {
   });
 });
 
+const borrar = document.querySelector(".borrar");
+
 borrar.addEventListener("dragover", (event) => {
-  event.preventDefault;
+  event.preventDefault();
   event.dataTransfer.dropEffect = "move";
 });
 
 borrar.addEventListener("drop", (event) => {
-  console.log("Drop en borrar");
   const id_parrafo = event.dataTransfer.getData("id");
-  // console.log("Párrafo id: ", id_parrafo);
-  const parrafo = document.getElementById(id_parrafo);
-  borrar.appendChild(parrafo);
+  document.getElementById(id_parrafo).remove();
 });
